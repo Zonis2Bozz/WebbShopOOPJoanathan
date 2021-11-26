@@ -1,0 +1,17 @@
+﻿@page
+@model WebbShopOOPJoanathan.Pages.Index1Model
+@{
+}
+
+<div class="card-deck">
+    @foreach (var produkt in Model.Produkts)
+    {
+        <div class="card" style="width: auto;">
+            <img class="card-img-top" src="@produkt.ImgUrl" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">@produkt.produktName</h5>
+                <a asp-page="/Movie" asp-route-movieId="@produkt.ProduktId" class="btn btn-primary">Köp</a>
+            </div>
+        </div>
+    }
+</div>
