@@ -11,13 +11,11 @@ namespace WebbShopOOPJoanathan.Pages
     public class Index1Model : PageModel
     {
 
-        private readonly IDataSource _dataSource;
-        public List<Produkt> Produkts { get; set; }
+       
 
-        public Index1Model(IDataSource dataSource)
+        public Index1Model()
         {
-            _dataSource = dataSource;
-            Produkts = _dataSource.GetAll();
+           
         }
 
 

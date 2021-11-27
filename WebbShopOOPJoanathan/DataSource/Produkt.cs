@@ -7,5 +7,6 @@ namespace WebbShopOOPJoanathan.DataSource
         public Guid ProduktId { get; set; }
         public string produktName { get; set; }
         public string ImgUrl { get; set; }
+        public int price { get; set; }
     }
 }

@@ -16,7 +16,16 @@ namespace WebbShopOOPJoanathan.DataSource
                 {
                     ProduktId = Guid.NewGuid(),
                     produktName = "The Shining",
-                    ImgUrl = "https://pics.filmaffinity.com/the_shining-453129380-large.jpg"
+                    ImgUrl = "https://pics.filmaffinity.com/the_shining-453129380-large.jpg",
+                    price = 100
+                    
+                },
+                new Produkt()
+                {
+                    ProduktId = Guid.NewGuid(),
+                    produktName = "Ran",
+                    ImgUrl = "https://pics.filmaffinity.com/ran-397228667-large.jpg",
+                    price = 200
                 }
             };
         }
